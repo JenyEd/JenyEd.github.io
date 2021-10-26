@@ -1,0 +1,113 @@
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
+
+body{
+    font-family: "Noto Sans TC",sans-serif;
+    background-color: #fff;
+    margin: 0;
+    -webkit-text-size-adjust: 100%;
+}
+
+footer{
+    font-size: 14px;
+    font-weight: 200;
+    line-height: 1em;
+    padding:20px;
+
+}
+
+.navigation ul{
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+}
+
+.navigation ul li {
+    list-style-type:none;
+    display: inline;           
+    margin: 5px;
+    font-size: 15px;
+}
+
+
+.navigation ul li a{
+    color:#ca5d87   ;
+    text-decoration:none;   /* 文字底線：無 */
+}
+
+.navigation ul li a :hover{
+    color:blue;
+    text-decoration: underline;
+}
+
+.mainvisual img{
+    display:block;
+    margin: 0 auto;     /* 置中對齊 */
+    max-width: 100%;    /* 寬度以100%呈現，隨著熒幕尺寸縮放 */
+    height: auto;
+}
+
+article{
+    font-size: 15px;
+    font-weight: 300;
+    line-height:2em;    /* 行間設定為2em兩個字高 */
+    padding: 32px 16px;
+}
+
+#new{
+    padding: 30px 20px;
+}
+
+.inner{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+table{
+    border-collapse: collapse;    /* 邊框合併為單一邊框，讓表格變得更美化 */
+    width: 100%;
+} 
+
+th,td{
+    border-bottom: solid 2px #cccccc;
+    padding:10px;
+    text-align: left;
+    vertical-align: top;
+}
+
+h1{
+    font-size: 15px;
+    color: #ca5d87;
+    text-align: center;
+    max-width: 100%;
+}
+
+h2{
+    color: #ca5d87;
+    font-size: 20px;
+        font-weight: 700;
+    line-height: 1.5em;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.pagetop{
+    text-align: right;
+    margin: 1em;
+}
+
+.copyright{
+    border-top:solid 5px #ca5d87;
+    text-align: center;
+    padding-top: 20px;
+}
+
+a{
+    color: #42c5ea;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #ca5d87;
+    text-decoration: none;
+}
